@@ -119,8 +119,6 @@ export default class Lightbox extends Component {
 
   handleOnLongPress() {
     if(this.props.onLongPress) {
-      // ignore
-    } else {
       this.props.onLongPress()
     }
   }
@@ -146,4 +144,3 @@ export default class Lightbox extends Component {
       </View>
     );
   }
-}
