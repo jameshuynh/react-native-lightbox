@@ -144,3 +144,4 @@ export default class Lightbox extends Component {
       </View>
     );
   }
+}
